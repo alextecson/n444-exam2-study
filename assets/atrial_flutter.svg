@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Atrial flutter rhythm strip</title>
+  <desc id="desc">A regular narrow-complex rhythm with sawtooth flutter waves between QRS complexes.</desc>
+  <defs>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#edf3f7" stroke-width="1"/>
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#d8e4ec" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="260" rx="18" fill="#ffffff"/>
+  <rect x="16" y="16" width="868" height="228" rx="14" fill="url(#grid)" stroke="#17202a" stroke-width="3"/>
+  <path d="M 32 132
+    L 58 104 L 84 132 L 110 104 L 136 132
+    L 146 132 L 153 82 L 162 178 L 172 132
+    L 198 104 L 224 132 L 250 104 L 276 132 L 302 104 L 328 132
+    L 338 132 L 345 82 L 354 178 L 364 132
+    L 390 104 L 416 132 L 442 104 L 468 132 L 494 104 L 520 132
+    L 530 132 L 537 82 L 546 178 L 556 132
+    L 582 104 L 608 132 L 634 104 L 660 132 L 686 104 L 712 132
+    L 722 132 L 729 82 L 738 178 L 748 132
+    L 774 104 L 800 132 L 826 104 L 852 132 L 880 104"
+    fill="none" stroke="#2867b2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="38" y="44" fill="#17202a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="800">Atrial flutter: sawtooth F waves</text>
+</svg>
