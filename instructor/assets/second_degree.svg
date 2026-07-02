@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Second-degree AV block rhythm strip</title>
+  <desc id="desc">Two rhythm rows comparing Mobitz I progressive PR lengthening and Mobitz II sudden dropped QRS complexes.</desc>
+  <defs>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#edf3f7" stroke-width="1"/>
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#d8e4ec" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="300" rx="18" fill="#ffffff"/>
+  <rect x="16" y="16" width="868" height="268" rx="14" fill="url(#grid)" stroke="#17202a" stroke-width="3"/>
+  <text x="38" y="44" fill="#17202a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="800">Mobitz I: PR lengthens, then drops</text>
+  <path d="M 36 90 L 68 90 L 78 76 L 88 90 L 120 90 L 126 56 L 134 126 L 144 90 L 188 90 L 198 76 L 208 90 L 252 90 L 258 56 L 266 126 L 276 90 L 332 90 L 342 76 L 352 90 L 416 90 L 422 56 L 430 126 L 440 90 L 506 90 L 516 76 L 526 90 L 620 90 L 630 76 L 640 90 L 690 90 L 696 56 L 704 126 L 714 90 L 858 90"
+    fill="none" stroke="#0b8f83" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 506 138 C 548 154 594 154 636 138" fill="none" stroke="#d85f4f" stroke-width="5" stroke-dasharray="8 10" stroke-linecap="round"/>
+  <text x="38" y="176" fill="#17202a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="800">Mobitz II: fixed PR, sudden dropped QRS</text>
+  <path d="M 36 226 L 68 226 L 78 212 L 88 226 L 132 226 L 138 192 L 146 262 L 156 226 L 220 226 L 230 212 L 240 226 L 284 226 L 290 192 L 298 262 L 308 226 L 372 226 L 382 212 L 392 226 L 452 226 L 462 212 L 472 226 L 548 226 L 558 212 L 568 226 L 612 226 L 618 192 L 626 262 L 636 226 L 704 226 L 714 212 L 724 226 L 768 226 L 774 192 L 782 262 L 792 226 L 858 226"
+    fill="none" stroke="#6d5bd0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 360 270 C 410 292 462 292 512 270" fill="none" stroke="#d85f4f" stroke-width="5" stroke-dasharray="8 10" stroke-linecap="round"/>
+</svg>
