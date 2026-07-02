@@ -6,6 +6,8 @@
   const review = data.review;
   const app = document.getElementById("app");
   const progressKey = "n444-study-progress-v1";
+  const coachAssetVersion = "clean-bg-20260702";
+  const coachAsset = (src) => `${src}?v=${coachAssetVersion}`;
 
   const rhythmAssets = {
     afib: "assets/afib-DWPwm1fU.png",
@@ -26,59 +28,59 @@
 
   const coachImages = {
     point: {
-      src: "assets/generated/coach-point.webp",
+      src: coachAsset("assets/generated/coach-point.webp"),
       alt: "Professor Tecson pointing toward the answer explanation"
     },
     celebrate: {
-      src: "assets/generated/coach-celebrate.webp",
+      src: coachAsset("assets/generated/coach-celebrate.webp"),
       alt: "Professor Tecson celebrating a correct answer"
     },
     think: {
-      src: "assets/generated/coach-think.webp",
+      src: coachAsset("assets/generated/coach-think.webp"),
       alt: "Professor Tecson thinking through the answer rationale"
     },
     rhythm: {
-      src: "assets/generated/coach-rhythm.webp",
+      src: coachAsset("assets/generated/coach-rhythm.webp"),
       alt: "Professor Tecson explaining a rhythm concept"
     },
     fist: {
-      src: "assets/generated/coach-fist.webp",
+      src: coachAsset("assets/generated/coach-fist.webp"),
       alt: "Professor Tecson giving an encouraging fist pump"
     },
     tablet: {
-      src: "assets/generated/coach-tablet.webp",
+      src: coachAsset("assets/generated/coach-tablet.webp"),
       alt: "Professor Tecson holding a tablet while explaining"
     },
     handHeart: {
-      src: "assets/generated/coach-hand-heart.webp",
+      src: coachAsset("assets/generated/coach-hand-heart.webp"),
       alt: "Professor Tecson with a reassuring hand on his chest"
     },
     armsCrossed: {
-      src: "assets/generated/coach-arms-crossed.webp",
+      src: coachAsset("assets/generated/coach-arms-crossed.webp"),
       alt: "Professor Tecson smiling with arms crossed"
     },
     wave: {
-      src: "assets/generated/coach-wave.webp",
+      src: coachAsset("assets/generated/coach-wave.webp"),
       alt: "Professor Tecson waving hello"
     },
     chin: {
-      src: "assets/generated/coach-chin.webp",
+      src: coachAsset("assets/generated/coach-chin.webp"),
       alt: "Professor Tecson thinking through the explanation"
     },
     thumbsUp: {
-      src: "assets/generated/coach-thumbs-up.webp",
+      src: coachAsset("assets/generated/coach-thumbs-up.webp"),
       alt: "Professor Tecson giving a thumbs up"
     },
     openHands: {
-      src: "assets/generated/coach-open-hands.webp",
+      src: coachAsset("assets/generated/coach-open-hands.webp"),
       alt: "Professor Tecson presenting the explanation with open hands"
     },
     oneFinger: {
-      src: "assets/generated/coach-one-finger.webp",
+      src: coachAsset("assets/generated/coach-one-finger.webp"),
       alt: "Professor Tecson pointing up to an important concept"
     },
     present: {
-      src: "assets/generated/coach-present.webp",
+      src: coachAsset("assets/generated/coach-present.webp"),
       alt: "Professor Tecson presenting the answer explanation"
     }
   };
@@ -492,7 +494,7 @@
               <h2 id="cover-title">N444 Exam 2 Lock-In</h2>
             </div>
             <div class="cover-professor" aria-hidden="true">
-              <img src="assets/generated/coach-wave.webp" alt="" />
+              <img src="${coachImages.wave.src}" alt="" />
               <span>Rationale first. Panic never.</span>
             </div>
           </div>
