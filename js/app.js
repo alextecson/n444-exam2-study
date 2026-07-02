@@ -494,7 +494,7 @@
               <h2 id="cover-title">N444 Exam 2 Lock-In</h2>
             </div>
             <div class="cover-professor" aria-hidden="true">
-              <img src="${coachImages.wave.src}" alt="" />
+              <img src="${coachImages.point.src}" alt="" />
               <span>Rationale first. Panic never.</span>
             </div>
           </div>
